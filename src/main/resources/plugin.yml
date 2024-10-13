@@ -1,0 +1,4 @@
+name: nStaff
+main: io.ngrok.plugin.Main
+version: 1.0
+author: ngrok_mat
