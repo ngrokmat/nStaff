@@ -26,8 +26,6 @@ public class MainConfiguration extends ConfigurationFile {
             configuration.addDefault("configuration.staff mode.enable on join.mysql.configuration.connectionPoolTimeout", 5000);
             configuration.addDefault("configuration.staff mode.enable on join.mysql.configuration.connectionPoolLifetime", 1800000);
 
-            configuration.addDefault("configuration.staff mode.on enable.enable vanish", true);
-
             configuration.addDefault("configuration.chat mention.enabled", false);
             configuration.addDefault("configuration.chat mention.sound.enabled", true);
             configuration.addDefault("configuration.chat mention.sound.name", "ANVIL_LAND");

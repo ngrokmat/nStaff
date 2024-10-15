@@ -61,6 +61,7 @@ public class ModeDataVault {
         this.items = items;
         this.armor = armor;
         this.offHand = offHand;
+        this.xp = xp;
         this.gameMode = gameMode;
         InventorySerializer save = new InventorySerializer(uuid);
         save.save(items, armor, this.xp);

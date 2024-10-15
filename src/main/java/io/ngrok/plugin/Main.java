@@ -1,6 +1,7 @@
 package io.ngrok.plugin;
 
 import io.ngrok.plugin.configurations.MainConfiguration;
+import io.ngrok.plugin.utils.Cooldowns;
 import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -15,6 +16,8 @@ public class Main extends JavaPlugin {
         super.onEnable();
         instance = this;
         configuration = new MainConfiguration("configuration", getDataFolder().toString());
+
+        Cooldowns.createCooldown("interactFreeze", 1L);
     }
 
     @Override
