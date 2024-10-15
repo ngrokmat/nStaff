@@ -13,6 +13,7 @@ public class Test {
                 if (staff.getPlayer().getOpenInventory().getTopInventory() == inventory) { // Check if the menu is still open
                     // update inventory using Staff#getExaminingPlayer();
                 } else {
+                    staff.setExaminingPlayer(null);
                     cancel(); // cancel the task if the menu is no longer open
                 }
             }
