@@ -1,6 +1,6 @@
 package io.ngrok.plugin;
 
-import io.ngrok.plugin.api.configurations.MainConfiguration;
+import io.ngrok.plugin.configurations.MainConfiguration;
 import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;
 

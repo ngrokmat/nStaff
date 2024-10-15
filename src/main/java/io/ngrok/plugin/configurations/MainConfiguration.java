@@ -1,4 +1,4 @@
-package io.ngrok.plugin.api.configurations;
+package io.ngrok.plugin.configurations;
 
 import io.ngrok.plugin.api.configuration.ConfigurationFile;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -25,6 +25,8 @@ public class MainConfiguration extends ConfigurationFile {
             configuration.addDefault("configuration.staff mode.enable on join.mysql.configuration.connectionPoolIdle", 10);
             configuration.addDefault("configuration.staff mode.enable on join.mysql.configuration.connectionPoolTimeout", 5000);
             configuration.addDefault("configuration.staff mode.enable on join.mysql.configuration.connectionPoolLifetime", 1800000);
+
+            configuration.addDefault("configuration.staff mode.on enable.enable vanish", true);
 
             configuration.addDefault("configuration.chat mention.enabled", false);
             configuration.addDefault("configuration.chat mention.sound.enabled", true);
